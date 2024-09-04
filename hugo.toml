@@ -1,0 +1,51 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'The Best Page in the Universe'
+theme = 'Maddox'
+
+[params]
+    subtitle = 'This page is about me and why everything I like is great. If you disagree with anything you find on this page, you are wrong.'
+
+[params.author]
+    name = "Maddox"
+    email = "maddox@xmission.com"
+
+[params.header]
+    logo = "logo.avif"
+
+[frontmatter]
+  lastmod = ['lastmod', ':fileModTime', ':default']
+
+[menus]
+  [[menus.main]]
+    name = 'faq'
+    pageRef = '/faq'
+    weight = 10
+  [[menus.main]]
+    name = 'hate mail'
+    pageRef = '/hatemail'
+    weight = 20
+  [[menus.main]]
+    name = 'images'
+    pageRef = '/imgs'
+    weight = 30
+  [[menus.main]]
+    name = 'archive'
+    pageRef = '/posts'
+    weight = 40
+  [[menus.main]]
+    name = 'news'
+    pageRef = '/news'
+    weight = 50
+  [[menus.main]]
+    name = 'store'
+    url = 'https://maddox-store.myspreadshop.com/'
+    weight = 60
+  [[menus.main]]
+    name = 'books'
+    url = 'https://www.amazon.com/Maddox/e/B001KHKPU2/ref=as_li_ss_tl?qid=1492190868&sr=1-2-ent&linkCode=ll2&tag=bsitu-20&linkId=153c8fee225abd024b7b096323aa8d6d'
+    weight = 70
+  [[menus.main]]
+    name = 'podcast'
+    url = 'https://madcastmedia.com/'
+    weight = 80
